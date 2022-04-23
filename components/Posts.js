@@ -6,21 +6,21 @@ const posts = [
         username: "filipego",
         userImg: "/images/profile-pic.jpg",
         img: "/images/profile-pic.jpg",
-        caption: "Yup, most handome developer in the world lol"
+        caption: "Yup, most handsome developer in the world lol"
     },
     {
         id: "123",
         username: "filipego",
         userImg: "/images/profile-pic.jpg",
         img: "/images/profile-pic.jpg",
-        caption: "Yup, most handome developer in the world lol"
+        caption: "Yup, most handsome developer in the world lol"
     },
     {
         id: "123",
         username: "filipego",
         userImg: "/images/profile-pic.jpg",
         img: "/images/profile-pic.jpg",
-        caption: "Yup, most handome developer in the world lol"
+        caption: "Yup, most handsome developer in the world lol"
     }
 ]
 
