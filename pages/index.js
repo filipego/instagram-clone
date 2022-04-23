@@ -4,7 +4,7 @@ import Feed from '../components/Feed';
 
 function Home(){
   return (
-    <div>
+    <div className="bg-gray-50 h-screen overflow-y-scroll scrollbar-hide">
       <Head>
         <title>Instagram Clone App</title>
         <link rel="icon" href="/favicon.ico" />
