@@ -13,8 +13,10 @@ function Feed() {
         </section>
 
         <sectiion className="hidden xl:inline-grid md: col-span-1">
-            <MiniProfile/>
-            <Suggestions />
+            <div className="fixed top-20">
+              <MiniProfile/>
+              <Suggestions />
+            </div>
         </sectiion>
     </main>
   )
