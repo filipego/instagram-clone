@@ -19,6 +19,32 @@ function Post({id, username, userImg, img, caption}) {
 
         <img src={img} alt="" className="object-cover w-full"/>
 
+        <div className="flex justify-between px-4 pt-4">
+            <div className="flex space-x-4">
+                <HeartIcon className="btn"/>
+                <ChatIcon className="btn"/>
+                <PaperAirplaneIcon className="btn rotate-45"/>
+            </div>
+            <BookmarkIcon className="btn"/>
+        </div>
+
+        <p className="p-5 truncate">
+            <span className="font-bold mr-1">{username} </span>
+            {caption}
+        </p>
+
+
+
+        <form className="flex items-center p-4">
+            <EmojiHappyIcon className="btn"/>
+            <input 
+                type="text" 
+                placeholder="Add a comment ..."
+                className="border-none flex-1 focus:ring-0 ouline-none"
+            />
+            <button className="font-semibold text-blue-400">Post</button>
+        </form>
+
     </div>
   )
 }
