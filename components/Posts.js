@@ -9,14 +9,14 @@ const posts = [
         caption: "Yup, most handsome developer in the world lol"
     },
     {
-        id: "123",
+        id: "1234",
         username: "filipego",
         userImg: "/images/profile-pic.jpg",
         img: "/images/profile-pic.jpg",
         caption: "Yup, most handsome developer in the world lol"
     },
     {
-        id: "123",
+        id: "1235",
         username: "filipego",
         userImg: "/images/profile-pic.jpg",
         img: "/images/profile-pic.jpg",
